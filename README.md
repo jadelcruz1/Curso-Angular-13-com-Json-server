@@ -1,5 +1,7 @@
 # MyFirstProject
 
+npm run server para chamar o back-end no json serve.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 ## Development server

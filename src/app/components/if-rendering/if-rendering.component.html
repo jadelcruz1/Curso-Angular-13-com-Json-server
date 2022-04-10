@@ -1,0 +1,24 @@
+<div class="class">
+    <h1 *ngIf="canShow"> Testa renderização condicional </h1>
+    <h2 *ngIf="name === 'Carlos' ; else nameNotFound"> o nome é carlos</h2>
+       <ng-template #nameNotFound>
+
+      <div>
+          <span> usuário não encontrado.</span>
+      </div>
+     
+    </ng-template>
+
+    <h3 *ngIf="password === 123456; else  passwordNotFound"> login efetuado com sucesso  </h3>
+
+    <ng-template #passwordNotFound>
+
+      <div>
+        <span> Login e/ou senha errado. </span>
+      </div>
+
+    </ng-template>
+
+</div>
+
+
